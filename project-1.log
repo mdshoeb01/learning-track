@@ -1,0 +1,38 @@
+1. Basic React.
+2. Basic Mongo.
+3. Create a sample React App to 
+    -> Store books its Respective Authors. (3H)
+    -> Create authors. (1H)
+    -> Search books by authors. (1H)
+    -> Search books by name. (1H)
+4. Create a simple Express App
+    SubTask -1 Setup the local dev. env.
+        - Install eslint use airbnb style (3H)
+        - Use npm script to run nodemon and eslint on start and file changes (3H)
+        - Write Npm script to run mocha test (1H)
+        - Use express to run the server (1H)
+        - Configure logger (1H)
+    SubTask-2 Routing.
+        -  Middleware (2H)
+        -  Understand and setup express router. (2H)
+    SubTask-3 Database Connection.
+        - Connect to mySQL database (5H)
+        - Connect to mongo database using mongoose (2H)
+        - Write Migration Scripts to preload user data, books and authors data. (2H)
+    SubTask-4 Serve REST API's to
+        -> Store books and its respective authors in mysql db (2H)
+        -> Support search by author and book (3H)
+        -> Integrate REACT app with Express App (2H)
+
+    SubTask-5 Integration.
+        -> Login page on UI (REACT) (2H)
+        -> Login User authentication using mongodb (Express). (2H)
+        -> Store login details on Redux. (3H)
+        -> Allow only Authorized user to access api's. (3H)
+
+    Subtask-6
+        - Consume Goodreads API to get author reveiws and display on the page. (3H)
+        - Cache the result using redis (3H)
+
+6. Learn about Redux middlewares and see if they can be integrated in existing app. (2H)
+7. Write Unit Test Cases for express app functions with mocha chai with 95+% of coverage report. (8H)
